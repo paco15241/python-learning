@@ -25,7 +25,7 @@ def main():
         job_count += 1
         now = get_break(now, break_time=5)
 
-        if job_num % 4 == 0:
+        if job_count % 4 == 0:
             get_break(now, break_time=30)
 
 if __name__ == '__main__':
